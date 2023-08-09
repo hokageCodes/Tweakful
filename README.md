@@ -1,5 +1,5 @@
 # Tweakful Landing Page
-### Landing page build in collaboration with [Emmanuel]("https://github.com/25Emmanuel")
+### Landing page build in collaboration with [Emmanuel](https://github.com/25Emmanuel)
 
 
 ## Clone Project
