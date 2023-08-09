@@ -1,0 +1,194 @@
+.footer-container {
+    height: 408px;
+    background: #052825;
+    color: #fff;
+}
+.footer-top {
+    margin-left: 155px;
+}
+.footer-middle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+
+.footer-middle-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-middle-right > ul:last-of-type {
+    margin-left: 92px;
+}
+.footer-middle-left > h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+.footer-middle-left > p {
+    margin-bottom: 10px;
+    max-width: 423px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.29px;
+}
+.footer-button-link {
+    padding: 10px 0px;
+    display: flex;
+    gap: 10px;
+}
+.footer-button-link > a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-middle-right > ul {
+    display: flex;
+    gap: 22px;
+    list-style-type: none;
+}
+
+hr {
+    width: 1170px;
+    height: 1.4px;
+    margin: 0 165px;
+    opacity: 0.08;
+    background: #FFF;
+}
+
+.footer-bottom {
+    margin-top: 30.6px;
+    display: flex;
+    justify-content: space-around;
+    gap: 220px;
+}
+.footer-bottom-left {
+    max-width: 400px;
+}
+
+/* Keep your existing CSS rules */
+/* ... */
+
+/* Add new rules for responsiveness */
+@media screen and (max-width: 768px) {
+    .footer-container {
+      height: auto;
+    }
+    
+    .footer-top {
+      margin-left: 20px;
+    }
+    
+    .footer-middle {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .footer-middle-left {
+      margin-bottom: 20px;
+    }
+    
+    .footer-button-link {
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .footer-middle-right {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .footer-middle-right ul {
+      margin: 0;
+    }
+    
+    .footer-links {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .footer-bottom {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .footer-container {
+      height: auto;
+    }
+    
+    .footer-top {
+      margin-left: 10px;
+    }
+    
+    .footer-middle {
+      margin-bottom: 30px;
+    }
+    
+    .footer-middle-left {
+      margin-bottom: 10px;
+    }
+    
+    .footer-button-link {
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    .footer-middle-right ul {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .footer-bottom {
+      gap: 15px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .footer-top {
+      margin-left: 5px;
+    }
+    
+    .footer-middle-left {
+      margin-bottom: 5px;
+    }
+    
+    .footer-button-link {
+      gap: 3px;
+    }
+    
+    .footer-middle-right ul {
+      margin-left: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .footer-top {
+      margin-left: 5px;
+    }
+    
+    .footer-middle-left {
+      margin-bottom: 5px;
+    }
+    
+    .footer-button-link {
+      gap: 3px;
+    }
+    
+    .footer-middle-right ul {
+      margin-left: 50px;
+    }
+  }
+  
