@@ -1,0 +1,53 @@
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.hero-right > img {
+    width: 460px;
+    height: 548.807px;
+}
+.hero-left > h1 {
+    max-width: 635px;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 112.5% */
+    letter-spacing: -1.16px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.hero-left > p {
+    max-width: 408px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.36px;
+    margin-bottom: 42px;
+}
+.book-meeting-button 
+{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background-color: blue;
+}
+.book-meeting-button > a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    text-decoration: none;
+    color: #fff;
+}
+i {
+    color: #fff;
+}
