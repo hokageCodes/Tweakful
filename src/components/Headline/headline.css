@@ -1,0 +1,152 @@
+.headline-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    height: 60vh;
+}
+.headline {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.headline-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #E7EBFC;
+}
+.headline-start > img {
+    width: 24px;
+    height: 24px;
+}
+.headline-end {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.headline-end > p {
+    max-width: 300px;
+}
+.headline-right {
+    max-width: 540px;
+}
+
+.headline-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background: #2E4FD7;
+    width: 150px;
+}
+.headline-button > a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.headline-right > h2 {
+    max-width: 500px;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px; /* 119.231% */
+    letter-spacing: -0.94px;
+    margin-bottom: 20px;
+}
+.headline-right > p {
+    max-width: 350px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.36px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .headline-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      height: auto;
+    }
+    
+    .headline-left {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .headline {
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .headline-start {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .headline-end > h4 {
+      font-size: 24px;
+    }
+    
+    .headline-end > p {
+      max-width: 280px;
+    }
+    
+    .headline-right > h2 {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+    
+    .headline-right > p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    
+    .headline-button {
+      max-width: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .headline-end > h4 {
+      font-size: 20px;
+    }
+    
+    .headline-end > p {
+      font-size: 16px;
+    }
+    
+    .headline-right > h2 {
+      font-size: 28px;
+    }
+    
+    .headline-right > p {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    /* Adjust styles as needed */
+  }
+  
+  @media screen and (max-width: 375px) {
+    /* Adjust styles as needed */
+  }
+
+  
+  
+  
+  
+  
+  
